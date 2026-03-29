@@ -1,0 +1,30 @@
+{
+  "task": "qemu_kvm_nested_virtualization_hard",
+  "prompt_file": "/home/fuyu/projects/skill_hub_terminalgen/skill_generation_prompts/qemu_kvm_nested_virtualization_hard.md",
+  "model": "openai/gpt-5.3-codex",
+  "timestamp": 1774793695,
+  "usage": {
+    "prompt_tokens": 11582,
+    "completion_tokens": 1123,
+    "total_tokens": 12705,
+    "cost": 0.0359905,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0359905,
+      "upstream_inference_prompt_cost": 0.0202685,
+      "upstream_inference_completions_cost": 0.015722
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 301,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop"
+}

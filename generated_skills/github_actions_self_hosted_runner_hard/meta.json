@@ -1,0 +1,30 @@
+{
+  "task": "github_actions_self_hosted_runner_hard",
+  "prompt_file": "/home/fuyu/projects/skill_hub_terminalgen/skill_generation_prompts/github_actions_self_hosted_runner_hard.md",
+  "model": "openai/gpt-5.3-codex",
+  "timestamp": 1774793622,
+  "usage": {
+    "prompt_tokens": 48386,
+    "completion_tokens": 1368,
+    "total_tokens": 49754,
+    "cost": 0.1038275,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.1038275,
+      "upstream_inference_prompt_cost": 0.0846755,
+      "upstream_inference_completions_cost": 0.019152
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 398,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop"
+}

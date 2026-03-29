@@ -1,0 +1,1692 @@
+{
+  "model": "openai/gpt-5.3-codex",
+  "prompts_dir": "/home/fuyu/projects/skill_hub_terminalgen/skill_generation_prompts",
+  "output_dir": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills",
+  "total": 60,
+  "ok": 60,
+  "skipped": 0,
+  "error": 0,
+  "elapsed_seconds": 308.91,
+  "results": [
+    {
+      "task": "autoconf_configure_permission_denied_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/autoconf_configure_permission_denied_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 17052,
+        "completion_tokens": 1166,
+        "total_tokens": 18218,
+        "cost": 0.046165,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.046165,
+          "upstream_inference_prompt_cost": 0.029841,
+          "upstream_inference_completions_cost": 0.016324
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 256,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "autodock_vina_grid_parameters_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/autodock_vina_grid_parameters_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 18594,
+        "completion_tokens": 1242,
+        "total_tokens": 19836,
+        "cost": 0.0499275,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0499275,
+          "upstream_inference_prompt_cost": 0.0325395,
+          "upstream_inference_completions_cost": 0.017388
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 549,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "attention_mechanism_custom_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/attention_mechanism_custom_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 32570,
+        "completion_tokens": 1469,
+        "total_tokens": 34039,
+        "cost": 0.0775635,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0775635,
+          "upstream_inference_prompt_cost": 0.0569975,
+          "upstream_inference_completions_cost": 0.020566
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 461,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "bayesplot_posterior_visualization_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/bayesplot_posterior_visualization_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 88759,
+        "completion_tokens": 1558,
+        "total_tokens": 90317,
+        "cost": 0.17714025,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.17714025,
+          "upstream_inference_prompt_cost": 0.15532825,
+          "upstream_inference_completions_cost": 0.021812
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 368,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "attribute_packed_gcc_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/attribute_packed_gcc_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 34749,
+        "completion_tokens": 1636,
+        "total_tokens": 36385,
+        "cost": 0.08371475,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.08371475,
+          "upstream_inference_prompt_cost": 0.06081075,
+          "upstream_inference_completions_cost": 0.022904
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 633,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "bipartite_matching_hungarian_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/bipartite_matching_hungarian_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 12906,
+        "completion_tokens": 938,
+        "total_tokens": 13844,
+        "cost": 0.0357175,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0357175,
+          "upstream_inference_prompt_cost": 0.0225855,
+          "upstream_inference_completions_cost": 0.013132
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 183,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "brms_custom_prior_specification_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/brms_custom_prior_specification_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 19759,
+        "completion_tokens": 1162,
+        "total_tokens": 20921,
+        "cost": 0.05084625,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.05084625,
+          "upstream_inference_prompt_cost": 0.03457825,
+          "upstream_inference_completions_cost": 0.016268
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 220,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "castep_phonon_dispersion_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/castep_phonon_dispersion_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 22055,
+        "completion_tokens": 1311,
+        "total_tokens": 23366,
+        "cost": 0.05695025,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.05695025,
+          "upstream_inference_prompt_cost": 0.03859625,
+          "upstream_inference_completions_cost": 0.018354
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 315,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "busco_completeness_assessment_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/busco_completeness_assessment_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 18839,
+        "completion_tokens": 1479,
+        "total_tokens": 20318,
+        "cost": 0.05367425,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.05367425,
+          "upstream_inference_prompt_cost": 0.03296825,
+          "upstream_inference_completions_cost": 0.020706
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 431,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "clickjacking_x_frame_options_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/clickjacking_x_frame_options_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 26674,
+        "completion_tokens": 1227,
+        "total_tokens": 27901,
+        "cost": 0.0638575,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0638575,
+          "upstream_inference_prompt_cost": 0.0466795,
+          "upstream_inference_completions_cost": 0.017178
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 271,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "cron_job_environment_variables_missing_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/cron_job_environment_variables_missing_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 68102,
+        "completion_tokens": 1442,
+        "total_tokens": 69544,
+        "cost": 0.1393665,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.1393665,
+          "upstream_inference_prompt_cost": 0.1191785,
+          "upstream_inference_completions_cost": 0.020188
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 451,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "cross_validation_sklearn_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/cross_validation_sklearn_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 15167,
+        "completion_tokens": 1180,
+        "total_tokens": 16347,
+        "cost": 0.04306225,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.04306225,
+          "upstream_inference_prompt_cost": 0.02654225,
+          "upstream_inference_completions_cost": 0.01652
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 285,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "dask_ucx_infiniband_communication_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/dask_ucx_infiniband_communication_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 15617,
+        "completion_tokens": 1225,
+        "total_tokens": 16842,
+        "cost": 0.04447975,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.04447975,
+          "upstream_inference_prompt_cost": 0.02732975,
+          "upstream_inference_completions_cost": 0.01715
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 208,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "cross_compile_arm_toolchain_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/cross_compile_arm_toolchain_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 16346,
+        "completion_tokens": 1818,
+        "total_tokens": 18164,
+        "cost": 0.0540575,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0540575,
+          "upstream_inference_prompt_cost": 0.0286055,
+          "upstream_inference_completions_cost": 0.025452
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 842,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "cycles_baking_normal_maps_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/cycles_baking_normal_maps_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 31641,
+        "completion_tokens": 1832,
+        "total_tokens": 33473,
+        "cost": 0.08101975,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.08101975,
+          "upstream_inference_prompt_cost": 0.05537175,
+          "upstream_inference_completions_cost": 0.025648
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 931,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "distributed_lock_redlock_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/distributed_lock_redlock_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 46563,
+        "completion_tokens": 1395,
+        "total_tokens": 47958,
+        "cost": 0.10101525,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.10101525,
+          "upstream_inference_prompt_cost": 0.08148525,
+          "upstream_inference_completions_cost": 0.01953
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 428,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "gatk_read_filter_strict_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/gatk_read_filter_strict_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 13085,
+        "completion_tokens": 1128,
+        "total_tokens": 14213,
+        "cost": 0.03869075,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.03869075,
+          "upstream_inference_prompt_cost": 0.02289875,
+          "upstream_inference_completions_cost": 0.015792
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 335,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "distributed_training_hang_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/distributed_training_hang_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 18800,
+        "completion_tokens": 962,
+        "total_tokens": 19762,
+        "cost": 0.046368,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.046368,
+          "upstream_inference_prompt_cost": 0.0329,
+          "upstream_inference_completions_cost": 0.013468
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 228,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "git_detached_head_recovery_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/git_detached_head_recovery_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 35641,
+        "completion_tokens": 1768,
+        "total_tokens": 37409,
+        "cost": 0.08712375,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.08712375,
+          "upstream_inference_prompt_cost": 0.06237175,
+          "upstream_inference_completions_cost": 0.024752
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 621,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "github_actions_self_hosted_runner_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/github_actions_self_hosted_runner_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 48386,
+        "completion_tokens": 1368,
+        "total_tokens": 49754,
+        "cost": 0.1038275,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.1038275,
+          "upstream_inference_prompt_cost": 0.0846755,
+          "upstream_inference_completions_cost": 0.019152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 398,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "hive_beeline_client_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/hive_beeline_client_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 16511,
+        "completion_tokens": 1147,
+        "total_tokens": 17658,
+        "cost": 0.04495225,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.04495225,
+          "upstream_inference_prompt_cost": 0.02889425,
+          "upstream_inference_completions_cost": 0.016058
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 352,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "grep_pcre_catastrophic_backtracking_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/grep_pcre_catastrophic_backtracking_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 25853,
+        "completion_tokens": 1618,
+        "total_tokens": 27471,
+        "cost": 0.06789475,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.06789475,
+          "upstream_inference_prompt_cost": 0.04524275,
+          "upstream_inference_completions_cost": 0.022652
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 616,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "gpt2_text_generation_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/gpt2_text_generation_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 21995,
+        "completion_tokens": 1901,
+        "total_tokens": 23896,
+        "cost": 0.06510525,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.06510525,
+          "upstream_inference_prompt_cost": 0.03849125,
+          "upstream_inference_completions_cost": 0.026614
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1084,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "hyperopt_bayesian_optimization_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/hyperopt_bayesian_optimization_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 48588,
+        "completion_tokens": 1754,
+        "total_tokens": 50342,
+        "cost": 0.109585,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.109585,
+          "upstream_inference_prompt_cost": 0.085029,
+          "upstream_inference_completions_cost": 0.024556
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 812,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "log4j_multiline_stack_traces_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/log4j_multiline_stack_traces_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 36011,
+        "completion_tokens": 1562,
+        "total_tokens": 37573,
+        "cost": 0.08488725,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.08488725,
+          "upstream_inference_prompt_cost": 0.06301925,
+          "upstream_inference_completions_cost": 0.021868
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 519,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "macs2_broad_peak_calling_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/macs2_broad_peak_calling_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 22357,
+        "completion_tokens": 1798,
+        "total_tokens": 24155,
+        "cost": 0.06429675,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.06429675,
+          "upstream_inference_prompt_cost": 0.03912475,
+          "upstream_inference_completions_cost": 0.025172
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 848,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "lttng_event_recording_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/lttng_event_recording_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 121409,
+        "completion_tokens": 1988,
+        "total_tokens": 123397,
+        "cost": 0.24029775,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.24029775,
+          "upstream_inference_prompt_cost": 0.21246575,
+          "upstream_inference_completions_cost": 0.027832
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1153,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "memory_leak_training_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/memory_leak_training_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 33331,
+        "completion_tokens": 1367,
+        "total_tokens": 34698,
+        "cost": 0.07746725,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.07746725,
+          "upstream_inference_prompt_cost": 0.05832925,
+          "upstream_inference_completions_cost": 0.019138
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 461,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "objdump_disassembly_analysis_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/objdump_disassembly_analysis_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 48552,
+        "completion_tokens": 1085,
+        "total_tokens": 49637,
+        "cost": 0.100156,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.100156,
+          "upstream_inference_prompt_cost": 0.084966,
+          "upstream_inference_completions_cost": 0.01519
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 386,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "mysql_innodb_corruption_recovery_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/mysql_innodb_corruption_recovery_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 67233,
+        "completion_tokens": 1533,
+        "total_tokens": 68766,
+        "cost": 0.13911975,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.13911975,
+          "upstream_inference_prompt_cost": 0.11765775,
+          "upstream_inference_completions_cost": 0.021462
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 505,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "openapi_spec_validation_error_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/openapi_spec_validation_error_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 26320,
+        "completion_tokens": 1137,
+        "total_tokens": 27457,
+        "cost": 0.061978,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.061978,
+          "upstream_inference_prompt_cost": 0.04606,
+          "upstream_inference_completions_cost": 0.015918
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 266,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "openmp_thread_affinity_numa_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/openmp_thread_affinity_numa_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 18813,
+        "completion_tokens": 1243,
+        "total_tokens": 20056,
+        "cost": 0.05032475,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.05032475,
+          "upstream_inference_prompt_cost": 0.03292275,
+          "upstream_inference_completions_cost": 0.017402
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 422,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "psi4_symmetry_adapted_perturbation_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/psi4_symmetry_adapted_perturbation_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 22171,
+        "completion_tokens": 1204,
+        "total_tokens": 23375,
+        "cost": 0.05565525,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.05565525,
+          "upstream_inference_prompt_cost": 0.03879925,
+          "upstream_inference_completions_cost": 0.016856
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 288,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "qemu_kvm_nested_virtualization_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/qemu_kvm_nested_virtualization_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 11582,
+        "completion_tokens": 1123,
+        "total_tokens": 12705,
+        "cost": 0.0359905,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0359905,
+          "upstream_inference_prompt_cost": 0.0202685,
+          "upstream_inference_completions_cost": 0.015722
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 301,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "openwrt_router_firmware_build_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/openwrt_router_firmware_build_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 55913,
+        "completion_tokens": 1708,
+        "total_tokens": 57621,
+        "cost": 0.12175975,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.12175975,
+          "upstream_inference_prompt_cost": 0.09784775,
+          "upstream_inference_completions_cost": 0.023912
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 522,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "picard_mark_duplicates_optical_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/picard_mark_duplicates_optical_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 19840,
+        "completion_tokens": 1947,
+        "total_tokens": 21787,
+        "cost": 0.061978,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.061978,
+          "upstream_inference_prompt_cost": 0.03472,
+          "upstream_inference_completions_cost": 0.027258
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1077,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "qemu_system_emulation_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/qemu_system_emulation_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 11855,
+        "completion_tokens": 1342,
+        "total_tokens": 13197,
+        "cost": 0.03953425,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.03953425,
+          "upstream_inference_prompt_cost": 0.02074625,
+          "upstream_inference_completions_cost": 0.018788
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 408,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "qemu_system_emulation_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/qemu_system_emulation_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 26890,
+        "completion_tokens": 1567,
+        "total_tokens": 28457,
+        "cost": 0.0689955,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0689955,
+          "upstream_inference_prompt_cost": 0.0470575,
+          "upstream_inference_completions_cost": 0.021938
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 628,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "qemu_user_mode_emulation_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/qemu_user_mode_emulation_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 21988,
+        "completion_tokens": 1259,
+        "total_tokens": 23247,
+        "cost": 0.056105,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.056105,
+          "upstream_inference_prompt_cost": 0.038479,
+          "upstream_inference_completions_cost": 0.017626
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 351,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "rust_proc_macro_compilation_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/rust_proc_macro_compilation_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 25615,
+        "completion_tokens": 1461,
+        "total_tokens": 27076,
+        "cost": 0.06528025,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.06528025,
+          "upstream_inference_prompt_cost": 0.04482625,
+          "upstream_inference_completions_cost": 0.020454
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 497,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "sentence_transformers_similarity_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/sentence_transformers_similarity_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 27650,
+        "completion_tokens": 1230,
+        "total_tokens": 28880,
+        "cost": 0.0656075,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0656075,
+          "upstream_inference_prompt_cost": 0.0483875,
+          "upstream_inference_completions_cost": 0.01722
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 291,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "rust_proc_macro_compilation_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/rust_proc_macro_compilation_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 21561,
+        "completion_tokens": 1157,
+        "total_tokens": 22718,
+        "cost": 0.05392975,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.05392975,
+          "upstream_inference_prompt_cost": 0.03773175,
+          "upstream_inference_completions_cost": 0.016198
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 302,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "rdp_bluekeep_vulnerability_exploit_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/rdp_bluekeep_vulnerability_exploit_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 39706,
+        "completion_tokens": 2472,
+        "total_tokens": 42178,
+        "cost": 0.1040935,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.1040935,
+          "upstream_inference_prompt_cost": 0.0694855,
+          "upstream_inference_completions_cost": 0.034608
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1713,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "server_side_template_injection_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/server_side_template_injection_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 30396,
+        "completion_tokens": 1472,
+        "total_tokens": 31868,
+        "cost": 0.073801,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.073801,
+          "upstream_inference_prompt_cost": 0.053193,
+          "upstream_inference_completions_cost": 0.020608
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 615,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "side_channel_timing_attack_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/side_channel_timing_attack_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 14850,
+        "completion_tokens": 1373,
+        "total_tokens": 16223,
+        "cost": 0.0452095,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0452095,
+          "upstream_inference_prompt_cost": 0.0259875,
+          "upstream_inference_completions_cost": 0.019222
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 526,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "spi_flash_chip_dumping_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/spi_flash_chip_dumping_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 20843,
+        "completion_tokens": 1482,
+        "total_tokens": 22325,
+        "cost": 0.05722325,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.05722325,
+          "upstream_inference_prompt_cost": 0.03647525,
+          "upstream_inference_completions_cost": 0.020748
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 537,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "sqlite3_disk_io_error_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/sqlite3_disk_io_error_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 20922,
+        "completion_tokens": 1111,
+        "total_tokens": 22033,
+        "cost": 0.0521675,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0521675,
+          "upstream_inference_prompt_cost": 0.0366135,
+          "upstream_inference_completions_cost": 0.015554
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 202,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "sql_injection_prepared_statement_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/sql_injection_prepared_statement_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 59674,
+        "completion_tokens": 1664,
+        "total_tokens": 61338,
+        "cost": 0.1277255,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.1277255,
+          "upstream_inference_prompt_cost": 0.1044295,
+          "upstream_inference_completions_cost": 0.023296
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 766,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "srgan_super_resolution_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/srgan_super_resolution_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 70034,
+        "completion_tokens": 1392,
+        "total_tokens": 71426,
+        "cost": 0.1420475,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.1420475,
+          "upstream_inference_prompt_cost": 0.1225595,
+          "upstream_inference_completions_cost": 0.019488
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 433,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "tla_plus_model_state_explosion_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/tla_plus_model_state_explosion_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 16530,
+        "completion_tokens": 924,
+        "total_tokens": 17454,
+        "cost": 0.0418635,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0418635,
+          "upstream_inference_prompt_cost": 0.0289275,
+          "upstream_inference_completions_cost": 0.012936
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 181,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "touch_permission_denied_timestamp_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/touch_permission_denied_timestamp_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 12616,
+        "completion_tokens": 1018,
+        "total_tokens": 13634,
+        "cost": 0.03633,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.03633,
+          "upstream_inference_prompt_cost": 0.022078,
+          "upstream_inference_completions_cost": 0.014252
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 193,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "svn_to_git_migration_history_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/svn_to_git_migration_history_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 53405,
+        "completion_tokens": 1920,
+        "total_tokens": 55325,
+        "cost": 0.12033875,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.12033875,
+          "upstream_inference_prompt_cost": 0.09345875,
+          "upstream_inference_completions_cost": 0.02688
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 911,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "tmb_template_model_builder_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/tmb_template_model_builder_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 40321,
+        "completion_tokens": 1556,
+        "total_tokens": 41877,
+        "cost": 0.09234575,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.09234575,
+          "upstream_inference_prompt_cost": 0.07056175,
+          "upstream_inference_completions_cost": 0.021784
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 627,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "vmd_trajectory_wrapping_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/vmd_trajectory_wrapping_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 40141,
+        "completion_tokens": 1299,
+        "total_tokens": 41440,
+        "cost": 0.08843275,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.08843275,
+          "upstream_inference_prompt_cost": 0.07024675,
+          "upstream_inference_completions_cost": 0.018186
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 380,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "wasi_sdk_wasm_compilation_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/wasi_sdk_wasm_compilation_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 14083,
+        "completion_tokens": 1477,
+        "total_tokens": 15560,
+        "cost": 0.04532325,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.04532325,
+          "upstream_inference_prompt_cost": 0.02464525,
+          "upstream_inference_completions_cost": 0.020678
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 449,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "vulkan_ray_tracing_sbt_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/vulkan_ray_tracing_sbt_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 19795,
+        "completion_tokens": 1438,
+        "total_tokens": 21233,
+        "cost": 0.05477325,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.05477325,
+          "upstream_inference_prompt_cost": 0.03464125,
+          "upstream_inference_completions_cost": 0.020132
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 658,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "xpath_injection_exploitation_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/xpath_injection_exploitation_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 16878,
+        "completion_tokens": 1208,
+        "total_tokens": 18086,
+        "cost": 0.0464485,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0464485,
+          "upstream_inference_prompt_cost": 0.0295365,
+          "upstream_inference_completions_cost": 0.016912
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 398,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "xcodebuild_command_line_build_medium",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/xcodebuild_command_line_build_medium/SKILL.md",
+      "usage": {
+        "prompt_tokens": 56051,
+        "completion_tokens": 1437,
+        "total_tokens": 57488,
+        "cost": 0.11820725,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.11820725,
+          "upstream_inference_prompt_cost": 0.09808925,
+          "upstream_inference_completions_cost": 0.020118
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 576,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "xss_sanitization_rich_text_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/xss_sanitization_rich_text_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 59379,
+        "completion_tokens": 1351,
+        "total_tokens": 60730,
+        "cost": 0.12282725,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.12282725,
+          "upstream_inference_prompt_cost": 0.10391325,
+          "upstream_inference_completions_cost": 0.018914
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 398,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "task": "yambo_bse_optical_spectra_hard",
+      "status": "ok",
+      "output": "/home/fuyu/projects/skill_hub_terminalgen/generated_skills/yambo_bse_optical_spectra_hard/SKILL.md",
+      "usage": {
+        "prompt_tokens": 49663,
+        "completion_tokens": 2023,
+        "total_tokens": 51686,
+        "cost": 0.11523225,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.11523225,
+          "upstream_inference_prompt_cost": 0.08691025,
+          "upstream_inference_completions_cost": 0.028322
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1081,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "task": "rust_proc_macro_compilation_medium",
+  "prompt_file": "/home/fuyu/projects/skill_hub_terminalgen/skill_generation_prompts/rust_proc_macro_compilation_medium.md",
+  "model": "openai/gpt-5.3-codex",
+  "timestamp": 1774793728,
+  "usage": {
+    "prompt_tokens": 21561,
+    "completion_tokens": 1157,
+    "total_tokens": 22718,
+    "cost": 0.05392975,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.05392975,
+      "upstream_inference_prompt_cost": 0.03773175,
+      "upstream_inference_completions_cost": 0.016198
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 302,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop"
+}
