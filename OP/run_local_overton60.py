@@ -125,6 +125,39 @@ def ensure_pad_token(tokenizer: Any) -> None:
     tokenizer.padding_side = "left"
 
 
+def infer_input_device(model: Any) -> torch.device:
+    hf_device_map = getattr(model, "hf_device_map", None)
+    if isinstance(hf_device_map, dict):
+        for device in hf_device_map.values():
+            if device not in ("cpu", "disk"):
+                return torch.device(device)
+
+    try:
+        return next(model.parameters()).device
+    except StopIteration:
+        return torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
+
+def normalize_generation_config(model: Any, tokenizer: Any, config: RunConfig) -> None:
+    generation_config = getattr(model, "generation_config", None)
+    if generation_config is None:
+        return
+
+    generation_config.pad_token_id = tokenizer.pad_token_id
+    generation_config.eos_token_id = tokenizer.eos_token_id
+    generation_config.use_cache = True
+
+    if config.do_sample:
+        generation_config.do_sample = True
+        generation_config.temperature = config.temperature
+        generation_config.top_p = config.top_p
+    else:
+        generation_config.do_sample = False
+        for field in ("temperature", "top_p", "top_k", "min_p", "typical_p", "epsilon_cutoff", "eta_cutoff"):
+            if hasattr(generation_config, field):
+                setattr(generation_config, field, None)
+
+
 def load_tokenizer_and_model(config: RunConfig) -> tuple[Any, Any]:
     model_path = Path(config.model_dir).expanduser().resolve()
     if not model_path.exists():
@@ -164,6 +197,7 @@ def load_tokenizer_and_model(config: RunConfig) -> tuple[Any, Any]:
 
     model = AutoModelForCausalLM.from_pretrained(model_path, **model_kwargs)
     model.eval()
+    normalize_generation_config(model, tokenizer, config)
     return tokenizer, model
 
 
@@ -262,9 +296,8 @@ def main() -> None:
             truncation=True,
             max_length=config.max_input_length,
         )
-
-        if not hasattr(model, "hf_device_map"):
-            tokenized = {k: v.to(model.device) for k, v in tokenized.items()}
+        input_device = infer_input_device(model)
+        tokenized = {k: v.to(input_device) for k, v in tokenized.items()}
 
         batch_t0 = time.time()
         with torch.inference_mode():
