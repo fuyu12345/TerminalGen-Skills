@@ -20,10 +20,10 @@ OP_ROOT = Path(__file__).resolve().parent
 @dataclass
 class RunConfig:
     # Point this to the local Hugging Face model directory shown in your screenshot.
-    model_dir: str = "/mnt/public/hf_models/gpt/gpt-oss-20b"
+    model_dir: str = "/mnt/public/fuyu/OP/models/hf_grpo-Llama-3.2-3B-Instruct-im-rewardscaledown-unique-12k"
     questions_csv: str = str(OP_ROOT / "data" / "overtonbench_60_questions.csv")
     output_dir: str = str(OP_ROOT / "outputs")
-    run_name: str = "overton60_gpt-oss-20b"
+    run_name: str = "grpo-Llama-3.2-3B"
 
     # Prompting
     system_prompt: str = (
@@ -34,7 +34,7 @@ class RunConfig:
     save_rendered_prompt: bool = True
 
     # Generation
-    batch_size: int = 10
+    batch_size: int = 20
     max_input_length: int = 4096
     max_new_tokens: int = 5120
     do_sample: bool = False
