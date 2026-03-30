@@ -20,10 +20,10 @@ OP_ROOT = Path(__file__).resolve().parent
 @dataclass
 class RunConfig:
     # Point this to the local Hugging Face model directory shown in your screenshot.
-    model_dir: str = "/mnt/public/fuyu/OP/models/hf_grpo-Llama-3.2-3B-Instruct-im-rewardscaledown-unique-12k"
+    model_dir: str = "/mnt/public/hf_models/Qwen/Qwen3-8B"
     questions_csv: str = str(OP_ROOT / "data" / "overtonbench_60_questions.csv")
     output_dir: str = str(OP_ROOT / "outputs")
-    run_name: str = "grpo-Llama-3.2-3B"
+    run_name: str = "Qwen3-8B"
 
     # Prompting
     system_prompt: str = (
