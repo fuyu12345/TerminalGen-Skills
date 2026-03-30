@@ -1,5 +1,1 @@
-torch
-transformers
-accelerate
-sentencepiece
-safetensors
+python -c "import torch, transformers, accelerate, sentencepiece, safetensors; print('All installed')"

@@ -1,0 +1,32 @@
+{
+  "config": {
+    "model_dir": "/mnt/public/fuyu/OP/models/hf_grpo-Qwen2.5-3b-Instruct-im-rewardscaledown-unique-12",
+    "questions_csv": "/mnt/public/fuyu/OP/TerminalGen-Skills/OP/data/overtonbench_60_questions.csv",
+    "output_dir": "/mnt/public/fuyu/OP/TerminalGen-Skills/OP/outputs",
+    "run_name": "overton60_local_model",
+    "system_prompt": "You are a helpful assistant. Answer the user's question directly, clearly, and concisely.",
+    "user_prompt_template": "{question}",
+    "use_chat_template": true,
+    "save_rendered_prompt": true,
+    "batch_size": 4,
+    "max_input_length": 4096,
+    "max_new_tokens": 5120,
+    "do_sample": false,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "repetition_penalty": 1.0,
+    "trust_remote_code": false,
+    "local_files_only": true,
+    "device_map": "auto",
+    "torch_dtype": "bfloat16",
+    "attn_implementation": "auto",
+    "load_in_4bit": false,
+    "load_in_8bit": false,
+    "save_every_batches": 1
+  },
+  "questions_count": 60,
+  "started_at": "2026-03-30T05:53:22",
+  "finished_at": "2026-03-30T06:00:17",
+  "cuda_available": true,
+  "gpu_count": 1
+}
