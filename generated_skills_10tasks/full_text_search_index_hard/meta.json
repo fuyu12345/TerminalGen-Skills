@@ -1,0 +1,30 @@
+{
+  "task": "full_text_search_index_hard",
+  "prompt_file": "/home/fuyu/projects/skill_hub_terminalgen/skill_generation_prompts_10tasks/full_text_search_index_hard.md",
+  "model": "openai/gpt-5.3-codex",
+  "timestamp": 1774968249,
+  "usage": {
+    "prompt_tokens": 23926,
+    "completion_tokens": 1512,
+    "total_tokens": 25438,
+    "cost": 0.0630385,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0630385,
+      "upstream_inference_prompt_cost": 0.0418705,
+      "upstream_inference_completions_cost": 0.021168
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 510,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop"
+}

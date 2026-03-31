@@ -1,1 +1,8 @@
-python -c "import torch, transformers, accelerate, sentencepiece, safetensors; print('All installed')"
+torch
+transformers
+accelerate
+sentencepiece
+safetensors
+pandas
+pyarrow
+datasets
